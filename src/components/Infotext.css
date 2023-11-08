@@ -1,0 +1,10 @@
+.infotext{
+    color: rgb(247,88,53);
+    font-size: 1.5vw;
+    padding: 80px;
+}
+
+@media only screen and (max-device-width: 767px){
+    .infotext{font-size: 3vw;
+        padding: 40px;} 
+}

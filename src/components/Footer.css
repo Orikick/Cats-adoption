@@ -1,0 +1,34 @@
+.footer{
+    height: 300px;
+    background-color: rgb(247,88,53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    overflow-y: hidden;
+}
+
+footer p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    animation: 4s linear infinite alternate cat;
+}
+
+@keyframes cat {
+    from {
+      /* pushes the sun down past the viewport */
+      transform: rotateZ(30deg);
+    }
+    to {
+      /* returns the sun to its default position */
+      transform: rotateZ(-30deg);
+    }
+  }
+
+  
+@media only screen and (max-device-width: 767px){
+  .footer{
+    height: 200px;}
+}

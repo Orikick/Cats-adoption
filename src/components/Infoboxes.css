@@ -1,0 +1,44 @@
+.infoboxes{
+    padding: 50px 0;
+    background-color: rgba(247,88,53,0.1);
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    font-size: 1.5vw;
+    display: grid;
+    grid-template-columns: 28vw 28vw 28vw;
+    grid-gap: 3vw;
+    margin: 0 auto;
+}
+
+.infoboxes>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(247,88,53);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.infoboxes>div>img{
+    width: 28vw;
+    height: 300px;
+    object-fit: cover;
+    border-radius:20px 20px 0 0 ;
+}
+
+.infoboxes>div:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.infoboxes>div>p{
+    margin-top: 0;
+padding: 0 1vw 10px 1vw;
+}
+
+@media only screen and (max-device-width: 767px){
+    .infoboxes{
+        font-size: 2vw;
+    }
+}

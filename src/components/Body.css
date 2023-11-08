@@ -1,0 +1,10 @@
+.body{
+    padding-top: 33vh;
+}
+
+
+@media only screen and (max-device-width: 767px){
+    .body{
+        padding-top: 26vh;
+    }
+}

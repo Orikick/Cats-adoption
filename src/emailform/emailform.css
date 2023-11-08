@@ -1,0 +1,82 @@
+.emailform{
+  justify-content: space-between;
+  
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+.email{
+  padding: 0 10vw;
+   padding-top: 30vh;
+   z-index: 10;
+   box-shadow: 200px 30px 100px 3em #ffffff;
+   width: 40vw;
+   font-size: 1.5vw;
+}
+
+.email button{
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-size: 1.5vw;
+}
+
+.emailform>img{
+  width: 60vw;
+  object-fit: cover;
+}
+
+.page__title {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 30vw;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 25px;
+    border-radius: 7px;
+  }
+  
+  .contact__form input, .contact__form textarea {
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    resize: vertical;
+    outline: none;
+    box-sizing: content-box;
+    border-bottom: solid 3px transparent;
+    margin: 5px 0;
+  }
+  
+  .contact__form label {
+    font-weight: 600;
+  }
+  
+  .contact__form input:focus, .contact__form textarea:focus {
+    border-bottom: solid 3px rgb(0, 119, 255);
+  }
+
+  @media only screen and (max-device-width: 767px){
+    .email{
+      box-shadow: 100px 30px 100px 3em #ffffff;
+    }
+    .contact__form{
+      width: 60vw;
+      max-width: 80vw;
+      font-size: 4vw;
+    }
+    .page__title {
+      width: 60vw;
+      font-size: 5vw;
+    }
+    .contact__form input, .contact__form textarea{
+      height: 60px;
+      font-size: 3vw;
+    }
+    .email button{
+      height: 60px;
+      font-size: 3vw;
+    }
+}
